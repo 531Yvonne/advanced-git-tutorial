@@ -8,7 +8,7 @@
 
 int main()
 {
-    char input[500];
+    char input[1000];
     while (fgets(input, 500, stdin))
     {                                    // read from STDIN (aka command-line)
         printf("%s\n", input);           // print out what user typed in
